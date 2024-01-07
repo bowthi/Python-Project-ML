@@ -68,8 +68,11 @@ Solution  Steps:
 	Mode = predict ,means a pre-trained model has been used to make predictions on new data.
 	Model ={train_result.location},the location or path of model that was trained previously.(best.pt - best prediction pytorch file)
 	
-	The above code displays the following output
+The above code displays the following output
+##output
+<p align="center">
     <img src ="https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Result1.jpg">
+</p>
 
 10.Import Glob to display the predicted images
 
@@ -79,10 +82,12 @@ Solution  Steps:
 	for image_path in glob.glob(f'/content/runs/detect/predict/*.jpg'):
 		display(Image(filename=image_path, width=600))
 		print("\n")
-
+##output
+<p align="center">
        <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image1.jpg"/>
        <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image2.jpg"/>
        <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image3.jpg"/>
         <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image4.jpg"/>
         <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image5.jpg"/>
         <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image6.jpg"/>
+</p>
