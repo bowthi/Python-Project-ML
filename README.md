@@ -83,11 +83,9 @@ The above code displays the following output
 		display(Image(filename=image_path, width=600))
 		print("\n")
 ##output
-<p align="center">
-       <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image1.jpg"/>
-       <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image2.jpg"/>
-       <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image3.jpg"/>
-        <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image4.jpg"/>
-        <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image5.jpg"/>
-        <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image6.jpg"/>
-</p>
+<p align="center"><img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image1.jpg"/></p>
+<p align="center"> <img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/Image2.jpg"/></p>
+<p algin="center"><img src="https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/image3.jpg"/></p>
+<p align ="center"><img src= "https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/image4.jpg"/></p>
+ <p align="center"><img src="https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/image5.jpg"> </p> 
+ <p align="center"><img src="https://github.com/bowthi/Python-Project-ML/blob/main/Screenshots/image6.jpg"></p>    
