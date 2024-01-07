@@ -49,24 +49,24 @@ Solution  Steps:
 
 	!yolo task=detect mode=train model=yolov8s.pt data=ocean_waste-1/data.yaml epochs=20 imgsz=640
 <p>
-	The Parameters,
+The Parameters,
 
-		Task = detect,indicates the specific task which is object detection
-		Mode = train , indicates the task of training a YOLO object detection model.
-		Model = YOLOv8s.pt, indicates the model used for training.
-		data={dataset.location}/data.yaml, indicates the location of the dataset in the yamlfile. The data file likely contains information about the dataset, including the paths to the images and their corresponding annotations (labels).
-		Epochs = 60 , indicates the number of iterations to train the  model.
-		Imgsz = 640, indicates the input image size for the model during training.
+Task = detect,indicates the specific task which is object detection
+Mode = train , indicates the task of training a YOLO object detection model.
+Model = YOLOv8s.pt, indicates the model used for training.
+data={dataset.location}/data.yaml, indicates the location of the dataset in the yamlfile. The data file likely contains information about the dataset, including the paths to the images and their corresponding annotations (labels).
+Epochs = 60 , indicates the number of iterations to train the  model.
+Imgsz = 640, indicates the input image size for the model during training.
 </p>		
 9.Test the model
 	
 	!yolo task=detect mode=predict model=/content/ocean_waste-1/train/best.pt conf=0.25 source=/content/ocean_waste-1/predict/images
 <p>
-	The Parameters,
+The Parameters,
 	
-	Task = detect,specifies the task is object detection.
-	Mode = predict ,means a pre-trained model has been used to make predictions on new data.
-	Model ={train_result.location},the location or path of model that was trained previously.(best.pt - best prediction pytorch file)
+Task = detect,specifies the task is object detection.
+Mode = predict ,means a pre-trained model has been used to make predictions on new data.
+Model ={train_result.location},the location or path of model that was trained previously.(best.pt - best prediction pytorch file)
 </p>	
 The above code displays the following output
 ##output
